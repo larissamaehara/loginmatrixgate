@@ -59,14 +59,14 @@ label {
 }
 
 input {
-    border-bottom: 2px solid #323232;
+    border: 1px solid rgb(80, 80, 80);
     padding: 10px;
     font-size: 1rem;
     margin-bottom: 20px;
 }
 
 input:focus {
-    border-bottom: 2px solid #08558B;
+    border: 2px solid #088b24;
 }
 
 #forgot-pass {
@@ -83,7 +83,7 @@ input[type="submit"] {
     margin-top: 30px;
     cursor: pointer;
     color: #FFF;
-    background-color: #08558B;
+    background-color: #055e0c;
     font-weight: bold;
 }
 
@@ -108,6 +108,10 @@ input[type="submit"]:hover {
     line-height: 40px;
     margin: 0 5px;
     color: #FFF;
+}
+
+.fa-fa-google {
+    background-color: red
 }
 
 .fa-facebook-f {

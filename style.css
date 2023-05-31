@@ -93,6 +93,20 @@ input[type="submit"]:hover {
 }
 
 /* redes sociais */
+button{
+    background-color: white;
+    border-radius: 70%;
+}
+  
+  button:hover, button:active {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 70%;
+    line-height: 100x;
+   
+  }
+
 #social-container {
     margin-bottom: 20px;
 }
@@ -107,19 +121,15 @@ input[type="submit"]:hover {
     border-radius: 70%;
     line-height: 40px;
     margin: 0 5px;
-    color: #fff6f6;
+    color: white;
 }
 
 .fa-google {
-    background-color: #040508;
+    background-color: #04721c;
 }
 
 .fa-facebook-f {
-    background-color: #040508;
-}
-
-.fa-linkedin {
-    background-color: #040508;
+    background-color: #04721c;
 }
 
 /* registrar */

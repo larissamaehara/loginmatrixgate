@@ -7,28 +7,29 @@
     font-family: Helvetica;
     color: #323232;
     border: none;
-  }
-  
-  body {
-    background-image: url('../img/background.jpg');
+}
+
+body {
+    background-image: url('background.jpg');
     background-size: cover;
     background-position-y: -200px;
-  }
-  
-  textarea:focus, input:focus{
+}
+
+textarea:focus,
+input:focus {
     outline: none;
-  }
-  
-  a {
-    font-size: .8rem;
-  }
-  
-  a:hover {
-    color: #08558B;
-  }
-  
-  /* container login */
-  #login-container {
+}
+
+a {
+    font-size: 1rem;
+}
+
+a:hover {
+    color: #04721c;
+}
+
+/* container login */
+#login-container {
     background-color: #FFF;
     margin-left: auto;
     margin-right: auto;
@@ -37,42 +38,43 @@
     margin-top: 10vh;
     border-radius: 10px;
     text-align: center;
-  }
-  
-  /* formulário */
-  form {
+}
+
+/* formulário */
+form {
     margin-top: 30px;
     margin-bottom: 40px;
-  }
-  
-  label, input {
+}
+
+label,
+input {
     display: block;
     width: 100%;
     text-align: left;
-  }
-  
-  label {
+}
+
+label {
     font-weight: bold;
     font-size: .8rem;
-  }
-  
-  input {
-    border-bottom: 2px solid #323232;
+}
+
+input {
+    border: 1px solid rgb(80, 80, 80);
     padding: 10px;
     font-size: 1rem;
     margin-bottom: 20px;
-  }
-  
-  input:focus {
-    border-bottom: 2px solid #08558B;
-  }
-  
-  #forgot-pass {
+}
+
+input:focus {
+    border: 2px solid #088b24;
+}
+
+#forgot-pass {
     display: block;
     text-align: right;
-  }
-  
-  input[type="submit"] {
+}
+
+input[type="submit"] {
     text-align: center;
     text-transform: uppercase;
     border: none;
@@ -81,42 +83,56 @@
     margin-top: 30px;
     cursor: pointer;
     color: #FFF;
-    background-color: #08558B;
+    background-color: #055e0c;
     font-weight: bold;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #1B223C;
+}
+
+input[type="submit"]:hover {
+    background-color: #040508;
     transition: .5s;
-  }
+}
+
+/* redes sociais */
+button{
+    background-color: white;
+    border-radius: 70%;
+}
   
-  /* redes sociais */
-  #social-container {
-    margin-bottom: 20px;
-  }
-  
-  #social-container p {
-    margin-bottom: 20px;
-  }
-  
-  #social-container i {
+  button:hover, button:active {
+    background-color: black;
     height: 40px;
     width: 40px;
-    border-radius: 50%;
+    border-radius: 70%;
+    line-height: 100x;
+   
+  }
+
+#social-container {
+    margin-bottom: 20px;
+}
+
+#social-container p {
+    margin-bottom: 20px;
+}
+
+#social-container i {
+    height: 40px;
+    width: 40px;
+    border-radius: 70%;
     line-height: 40px;
     margin: 0 5px;
-    color: #FFF;
-  }
-  
-  .fa-facebook-f {
-    background-color: #3B5998;
-  }
-  
-  .fa-linkedin {
-    background-color: #0077B5;
-  }
-  
-  /* registrar */
-  #register-container p {
+    color: white;
+}
+
+.fa-google {
+    background-color: #04721c;
+}
+
+.fa-facebook-f {
+    background-color: #04721c;
+}
+
+/* registrar */
+#registrar p {
     margin-bottom: 10px;
-  }
+}
